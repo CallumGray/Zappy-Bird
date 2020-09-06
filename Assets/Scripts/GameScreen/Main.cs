@@ -32,7 +32,7 @@ public class Main : MonoBehaviour
         height = 2f * cam.orthographicSize;
         width = height * cam.aspect;
 
-        //HEIGHTS LOL
+        //HEIGHTS
         Bounds maskBounds = leftmask.GetComponent<MeshRenderer>().bounds;
         maskHeight = maskBounds.max.y - maskBounds.min.y;
 
